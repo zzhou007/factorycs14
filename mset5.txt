@@ -1,0 +1,25 @@
+2000000
+
+4
+
+500000
+   2 0 1
+   2 1 2
+
+600000
+   2 0 2
+   2 0 1
+
+300000
+   0
+   1 0
+
+400000
+   0
+   1 1
+
+# NOTE: This should take no longer to run than mset4.txt
+#  You should not be advancing one time step at a time, but rather
+#  jumping to the next event (using the priority queue)
+#  This produces the same output as mset4.txt, except that all
+#  time values at 100000 times larger
